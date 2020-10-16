@@ -32,7 +32,7 @@ def play(songs)
   output = ""
   if songs.include?(input)
     output << "Playing #{input}"
-  elsif input
+  elsif input.between?(1)
     output << "Playing #{songs[input - 1]}"
   puts output
 end
