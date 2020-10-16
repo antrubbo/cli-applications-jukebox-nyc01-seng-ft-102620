@@ -57,7 +57,7 @@ end
 #   end
 #   puts output
 
-# count = 1
+# count = 0
 #   while count > 0
 #     if input == songs[count + 1] || count
 #       output << songs[count + 1]
