@@ -33,6 +33,7 @@ def play(songs)
   if songs.include?(input)
     output << "Playing #{input}"
   elsif input
+    output << "Playing #{songs[input - 1]}"
   puts output
 end
 
