@@ -44,6 +44,31 @@ def play(songs)
   puts output
 end
 
+# songs.each.with_index(1) do |s, i|
+#     if input == s || i
+#       output << "Playing #{s}"
+#     end
+#     if input.to_i > 9
+#       output << "Invalid input, please try again"
+#     end
+#     if input != s
+#       output << "Invalid input, please try again"
+#     end
+#   end
+#   puts output
+
+# count = 1
+#   while count > 0
+#     if input == songs[count + 1] || count
+#       output << songs[count + 1]
+#     else
+#       output << "Invalid input, please try again"
+#     end
+#     count += 1
+#     break
+#   end
+
+
 def exit_jukebox
   puts "Goodbye"
 end
