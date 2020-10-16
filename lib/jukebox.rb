@@ -31,7 +31,8 @@ def play(songs)
   input = gets.strip
   output = ""
   if songs.include?(input)
-    output << "Playing #{"
+    output << "Playing #{input}"
+  elsif input
   puts output
 end
 
