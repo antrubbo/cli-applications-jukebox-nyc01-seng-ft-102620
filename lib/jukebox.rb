@@ -30,17 +30,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   output = ""
-  songs.each.with_index(1) do |s, i|
-    if input == s || i
-      output << "Playing #{s}"
-    end
-    if input.to_i > 9
-      output << "Invalid input, please try again"
-    end
-    if input != s
-      output << "Invalid input, please try again"
-    end
-  end
+  if songs.include?
   puts output
 end
 
